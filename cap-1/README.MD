@@ -120,3 +120,29 @@ Suponha que você utiliza uma pesquisa simples para procurar um nome em uma agen
 - *Justificativa*: Mesmo que os nomes comecem com 'A', ainda precisa verificar toda a lista para encontrar todos os casos
 
 ## Caixeiro-viajante
+
+## Resumo: O Problema do Caixeiro-Viajante
+
+### Descrição
+- O caixeiro-viajante precisa visitar todas as cidades percorrendo a menor distância possível
+- O algoritmo analisa todas as possíveis ordens de visitação das cidades
+
+### Complexidade O(n!)
+- Para 5 cidades: 120 operações
+- Para 6 cidades: 720 operações
+- Para 7 cidades: 5.050 operações
+- Para 100+ cidades: computacionalmente inviável
+
+### Pontos Importantes
+- É um exemplo clássico de algoritmo com tempo de execução O(n!)
+- Não existe solução mais eficiente conhecida
+- Para casos práticos, usa-se soluções aproximadas
+- É considerado um problema "intratável" para grandes conjuntos de dados
+
+
+# Recapitulando
+• A pesquisa binária é muito mais rápida do que a pesquisa simples.
+• O(log n) é mais rápido do que O(n), e O(log n) ca ainda mais rápido conforme os elementos da lista aumentam.
+• A rapidez de um algoritmo não é medida em segundos.
+• O tempo de execução de um algoritmo é medido por meio de seu crescimento.
+• O tempo de execução dos algoritmos é expresso na notação Big O.
